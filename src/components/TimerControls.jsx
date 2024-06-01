@@ -1,5 +1,3 @@
-import React from 'react';
-
 const TimerControls = ({ isRunning, onStart, onPause, onReset }) => {
   return (
     <div className="flex justify-between items-center gap-7 mt-[30px]">

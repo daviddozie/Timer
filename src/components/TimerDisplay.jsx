@@ -1,5 +1,3 @@
-import React from 'react';
-
 const TimerDisplay = ({ time }) => {
     const formatTime = (seconds) => {
         const minutes = Math.floor(seconds / 60);
